@@ -1,6 +1,6 @@
 # About
 
-This repository contains a dataset collected from my own home.
+This repository contains a dataset collected from my own home, located at approximately -5.9 latitude and -35.2 longitude.
 
 ## Electrical Parameters:
 
@@ -19,8 +19,8 @@ Contains voltage readings (in Volts) for the Phases.
 
 Records active power output (in Watts) from the sources.
 
-- **output_power_active_1.csv**: Active power output (in Watts) from source/output 1.
-- **output_power_active_2.csv**: Active power output (in Watts) from source/output 2.
+- **output_power_active_1.csv**: Active power output from source 1.
+- **output_power_active_2.csv**: Active power output from source 2.
 
 Tracks energy consumed on the Phases.
 
@@ -31,10 +31,10 @@ Tracks energy consumed on the Phases.
 
 ## Environmental Sensors:
 
-Logs temperature readings from the radiators.
+Logs temperature (in °C) readings from the radiators.
 
-- **radiator_1_temperature.csv**: Logs temperature readings (in °C) from radiator 1.
-- **radiator_2_temperature.csv**: Logs temperature readings (in °C) from radiator 2.
+- **radiator_1_temperature.csv**: Logs temperature readings from radiator 1.
+- **radiator_2_temperature.csv**: Logs temperature readings from radiator 2.
 
 Measures solar irradiance (W/m²).
 
@@ -43,3 +43,7 @@ Measures solar irradiance (W/m²).
 Logs general ambient temperature data, recorded by a sensor located outdoors.
 
 - **temperature.csv**
+
+## License  
+
+This Data Package is made available under the Public Domain Dedication and License v1.0 whose full text can be found at: http://www.opendatacommons.org/licenses/pddl/1.0/
